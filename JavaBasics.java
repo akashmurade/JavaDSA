@@ -88,10 +88,11 @@ public class JavaBasics
         // System.out.println(sum);
 
         // Area of a circle
-        Scanner sc = new Scanner(System.in);
-        float radius = sc.nextFloat();
-        float area = 22f * radius * radius / 7;
-        System.out.println(area);
+        // Scanner sc = new Scanner(System.in);
+        // float radius = sc.nextFloat();
+        // float area = 22f * radius * radius / 7;
+        // System.out.println(area);
+
     }
 }
 // boilerplate code
