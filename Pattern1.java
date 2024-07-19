@@ -40,7 +40,7 @@ public class Pattern1 {
         //     System.out.println();
         // }
 
-        // Hollow Rectanle Pattern
+        // Hollow Rectangle Pattern
         // int h = 4, w = 40;
         // for(int i = 0; i < h; i++) {
         //     for(int j = 0; j < w; j++) {
@@ -62,6 +62,19 @@ public class Pattern1 {
         //         } else {
         //             System.out.print(' ');
         //         }
+        //     }
+        //     System.out.println();
+        // }
+
+        // int n = 10;
+        // for(int i = 0; i < n; i++) {
+        //     // spaces
+        //     for(int j = 0; j < n - i - 1; j++) {
+        //         System.out.print(" ");;
+        //     }
+        //     // stars
+        //     for(int j = 0; j <= i; j++) {
+        //         System.out.print("*");
         //     }
         //     System.out.println();
         // }
@@ -107,6 +120,16 @@ public class Pattern1 {
         //     System.out.println();
         // }
 
+        // int n = 4;
+        // // butterfly upper half
+        // for(int i = 0; i < n; i++) {
+        //     System.out.println("*".repeat(i+1) + " ".repeat((n-i-1) * 2) + "*".repeat(i+1));
+        // }
+        // // butterfly lower half
+        // for(int i = n - 1; i >= 0; i--) {
+        //     System.out.println("*".repeat(i+1) + " ".repeat((n-i-1) * 2) + "*".repeat(i+1));
+        // }
+
         // Solid Rhombus Pattern
         // int n = 10;
         // for(int i = 0; i < n; i++) {
@@ -119,6 +142,11 @@ public class Pattern1 {
         //     }
         //     System.out.println();
         // }
+
+        int n = 4;
+        for(int i = 0; i < n; i++) {
+            System.out.println("  ".repeat(n-i-1) + "* ".repeat(n));
+        }
 
         // Hollow Rhombus Pattern
         // int n = 10;
@@ -160,16 +188,16 @@ public class Pattern1 {
         // }
 
         // Palindromic Pattern with Numbers
-        int n = 3;
-        for(int i = 0; i < n; i++) {
-            for(int j = 0; j < n + i; j++) {
-                if(j < n - i - 1) {
-                    System.out.print(" ");
-                } else {
-                    System.out.print((j/n==0 ? n - j : j % n + 2));
-                }
-            }
-            System.out.println();
-        }
+        // int n = 3;
+        // for(int i = 0; i < n; i++) {
+        //     for(int j = 0; j < n + i; j++) {
+        //         if(j < n - i - 1) {
+        //             System.out.print(" ");
+        //         } else {
+        //             System.out.print((j/n==0 ? n - j : j % n + 2));
+        //         }
+        //     }
+        //     System.out.println();
+        // }
     }
 }
